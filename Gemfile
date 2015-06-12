@@ -27,6 +27,7 @@ gem 'seed-fu', '~> 2.3'
 gem 'faker'
 gem 'responders', '~> 2.0'
 gem 'will_paginate', '~> 3.0.6'
+gem 'rack-cors', :require => 'rack/cors'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
