@@ -14,7 +14,7 @@ class PlacesController < ApplicationController
     else
       @places = Place.all
     end
-    response.headers['X-Total-Count'] = @places.to_a.count.to_s
+    response.headers['X-Total-Count'] = Place.count.to_s
     render json: @places
   end
 
